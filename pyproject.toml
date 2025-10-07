@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mb-pipeline"
+version = "0.1.0"
+description = "Minimal MB-only catalog pipeline: lookup by catalog number and emit normalized JSON"
+requires-python = ">=3.9"
+dependencies = [
+  "psycopg2-binary>=2.9.9",
+  "jsonschema>=4.22.0",
+]
+
+[project.scripts]
+mb-lookup = "vgmmb.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["vgmmb"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.setuptools.package-data]
+vgmmb = ["data/*", "data/schemas/*"]

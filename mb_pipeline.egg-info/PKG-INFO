@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: mb-pipeline
+Version: 0.1.0
+Summary: Minimal MB-only catalog pipeline: lookup by catalog number and emit normalized JSON
+Requires-Python: >=3.9
+Requires-Dist: psycopg2-binary>=2.9.9
+Requires-Dist: jsonschema>=4.22.0
