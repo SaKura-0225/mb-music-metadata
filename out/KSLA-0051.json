@@ -1,0 +1,68 @@
+{
+  "source": {
+    "site": "musicbrainz",
+    "collected_at": "2025-10-07T07:30:20Z"
+  },
+  "identifiers": {
+    "catalog_number": "KSLA-0051",
+    "catalog_numbers": [
+      "KSLA-0051"
+    ],
+    "catalog_number_compact": "KSLA-0051",
+    "barcode": "4933032006008",
+    "mbids": {
+      "release": "6113c39d-5d27-4749-b9da-3db89b1ade7a",
+      "release_group": "8682d1a8-101d-45f6-97c1-b4b9cc858483",
+      "label": "4356d860-9545-4e3f-b84e-71c496ea7ea3"
+    }
+  },
+  "title": {
+    "product_name": "Crow Song",
+    "edition_name": null
+  },
+  "artist_credit": [
+    "Girls Dead Monster"
+  ],
+  "artist_display": "Girls Dead Monster",
+  "label": "Key Sounds Label",
+  "date": "2010-04-23",
+  "country": null,
+  "format": "CD",
+  "tracks": [
+    {
+      "disc": 1,
+      "no": 1,
+      "title": "Crow Song",
+      "length": "4:08",
+      "length_ms": 248040
+    },
+    {
+      "disc": 1,
+      "no": 2,
+      "title": "Alchemy",
+      "length": "4:16",
+      "length_ms": 256293
+    },
+    {
+      "disc": 1,
+      "no": 3,
+      "title": "My Song",
+      "length": "4:55",
+      "length_ms": 295000
+    }
+  ],
+  "images": {
+    "cover": {
+      "id": 19861975212,
+      "is_front": true,
+      "mime": "image/jpeg",
+      "bytes": null,
+      "urls": {
+        "full": "https://coverartarchive.org/release/6113c39d-5d27-4749-b9da-3db89b1ade7a/19861975212.jpg",
+        "thumb_250": "https://coverartarchive.org/release/6113c39d-5d27-4749-b9da-3db89b1ade7a/19861975212-250.jpg",
+        "thumb_500": "https://coverartarchive.org/release/6113c39d-5d27-4749-b9da-3db89b1ade7a/19861975212-500.jpg",
+        "thumb_1200": "https://coverartarchive.org/release/6113c39d-5d27-4749-b9da-3db89b1ade7a/19861975212-1200.jpg"
+      }
+    }
+  }
+}

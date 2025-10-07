@@ -1,0 +1,89 @@
+{
+  "source": {
+    "site": "musicbrainz",
+    "collected_at": "2025-10-07T07:30:22Z"
+  },
+  "identifiers": {
+    "catalog_number": "KSLM-0099",
+    "catalog_numbers": [
+      "KSLM-0099"
+    ],
+    "catalog_number_compact": "KSLM-0099",
+    "barcode": "4933032008507",
+    "mbids": {
+      "release": "d16489aa-e578-454a-8fb3-f769901c5a91",
+      "release_group": "76912070-ad13-41f3-a5c9-e64564b6a92f",
+      "label": "4356d860-9545-4e3f-b84e-71c496ea7ea3"
+    }
+  },
+  "title": {
+    "product_name": "Heartily Song/すべての終わりの始まり",
+    "edition_name": null
+  },
+  "artist_credit": [
+    "Lia"
+  ],
+  "artist_display": "Lia",
+  "label": "Key Sounds Label",
+  "date": "2015-04-01",
+  "country": null,
+  "format": "CD",
+  "tracks": [
+    {
+      "disc": 1,
+      "no": 1,
+      "title": "Heartily Song",
+      "length": "5:17",
+      "length_ms": 317000
+    },
+    {
+      "disc": 1,
+      "no": 2,
+      "title": "すべての終わりの始まり",
+      "length": "5:53",
+      "length_ms": 353000
+    },
+    {
+      "disc": 1,
+      "no": 3,
+      "title": "Heartily Song-inst",
+      "length": "5:17",
+      "length_ms": 317640
+    },
+    {
+      "disc": 1,
+      "no": 4,
+      "title": "すべての終わりの始まり-inst",
+      "length": "5:54",
+      "length_ms": 354133
+    },
+    {
+      "disc": 1,
+      "no": 5,
+      "title": "Heartily Song-GameSize",
+      "length": "2:58",
+      "length_ms": 178133
+    },
+    {
+      "disc": 1,
+      "no": 6,
+      "title": "すべての終わりの始まり-ShortVer.",
+      "length": "4:19",
+      "length_ms": 259133
+    }
+  ],
+  "images": {
+    "cover": {
+      "id": 11544821958,
+      "is_front": true,
+      "mime": "image/jpeg",
+      "bytes": null,
+      "urls": {
+        "full": "https://coverartarchive.org/release/d16489aa-e578-454a-8fb3-f769901c5a91/11544821958.jpg",
+        "thumb_250": "https://coverartarchive.org/release/d16489aa-e578-454a-8fb3-f769901c5a91/11544821958-250.jpg",
+        "thumb_500": "https://coverartarchive.org/release/d16489aa-e578-454a-8fb3-f769901c5a91/11544821958-500.jpg",
+        "thumb_1200": "https://coverartarchive.org/release/d16489aa-e578-454a-8fb3-f769901c5a91/11544821958-1200.jpg"
+      }
+    }
+  }
+}

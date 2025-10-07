@@ -1,0 +1,68 @@
+{
+  "source": {
+    "site": "musicbrainz",
+    "collected_at": "2025-10-07T07:30:16Z"
+  },
+  "identifiers": {
+    "catalog_number": "KSLA-0052",
+    "catalog_numbers": [
+      "KSLA-0052"
+    ],
+    "catalog_number_compact": "KSLA-0052",
+    "barcode": "4933032006015",
+    "mbids": {
+      "release": "a8ec9ad7-e573-4a05-9a84-c178c2abb3c5",
+      "release_group": "753e1d6f-7e65-430d-996a-6371cc34b086",
+      "label": "4356d860-9545-4e3f-b84e-71c496ea7ea3"
+    }
+  },
+  "title": {
+    "product_name": "Thousand Enemies",
+    "edition_name": null
+  },
+  "artist_credit": [
+    "Girls Dead Monster"
+  ],
+  "artist_display": "Girls Dead Monster",
+  "label": "Key Sounds Label",
+  "date": "2010-05-12",
+  "country": null,
+  "format": "CD",
+  "tracks": [
+    {
+      "disc": 1,
+      "no": 1,
+      "title": "Thousand Enemies",
+      "length": "4:48",
+      "length_ms": 288266
+    },
+    {
+      "disc": 1,
+      "no": 2,
+      "title": "Rain Song",
+      "length": "5:03",
+      "length_ms": 303000
+    },
+    {
+      "disc": 1,
+      "no": 3,
+      "title": "Highest Life",
+      "length": "6:25",
+      "length_ms": 385000
+    }
+  ],
+  "images": {
+    "cover": {
+      "id": 19862139047,
+      "is_front": true,
+      "mime": "image/jpeg",
+      "bytes": null,
+      "urls": {
+        "full": "https://coverartarchive.org/release/a8ec9ad7-e573-4a05-9a84-c178c2abb3c5/19862139047.jpg",
+        "thumb_250": "https://coverartarchive.org/release/a8ec9ad7-e573-4a05-9a84-c178c2abb3c5/19862139047-250.jpg",
+        "thumb_500": "https://coverartarchive.org/release/a8ec9ad7-e573-4a05-9a84-c178c2abb3c5/19862139047-500.jpg",
+        "thumb_1200": "https://coverartarchive.org/release/a8ec9ad7-e573-4a05-9a84-c178c2abb3c5/19862139047-1200.jpg"
+      }
+    }
+  }
+}
