@@ -1,0 +1,374 @@
+{
+  "source": {
+    "site": "musicbrainz",
+    "collected_at": "2025-10-07T09:29:21Z"
+  },
+  "identifiers": {
+    "catalog_number": "SECL-2409",
+    "catalog_numbers": [
+      "SECL-2409",
+      "SECL-2410",
+      "SECL-2411",
+      "SECL-2412",
+      "SECL-2413"
+    ],
+    "catalog_number_compact": "SECL-2409~13",
+    "barcode": "4547366396249",
+    "mbids": {
+      "release": "fa4355aa-59bb-4a01-a788-d96e2e4c29e7",
+      "release_group": "afc8948e-15a1-448a-8bbd-a9ea3b3144d5",
+      "label": "7c614735-33ba-4bed-bbb7-89b7e72ce9bb"
+    },
+    "catalog_number_compact_in": "SECL-2409~13"
+  },
+  "title": {
+    "product_name": "Sun Dance & Penny Rain",
+    "edition_name": "完全生産限定盤"
+  },
+  "artist_credit": [
+    "Aimer"
+  ],
+  "artist_display": "Aimer",
+  "label": "SME Records",
+  "date": "2019-04-10",
+  "country": null,
+  "format": "2BD+2CD",
+  "tracks": [
+    {
+      "disc": 1,
+      "no": 1,
+      "title": "soleil",
+      "length": "1:59",
+      "length_ms": 119000
+    },
+    {
+      "disc": 1,
+      "no": 2,
+      "title": "ONE",
+      "length": "5:28",
+      "length_ms": 328493
+    },
+    {
+      "disc": 1,
+      "no": 3,
+      "title": "We Two",
+      "length": "4:07",
+      "length_ms": 247000
+    },
+    {
+      "disc": 1,
+      "no": 4,
+      "title": "3min",
+      "length": "3:03",
+      "length_ms": 183000
+    },
+    {
+      "disc": 1,
+      "no": 5,
+      "title": "コイワズライ",
+      "length": "3:55",
+      "length_ms": 235000
+    },
+    {
+      "disc": 1,
+      "no": 6,
+      "title": "花びらたちのマーチ",
+      "length": "3:13",
+      "length_ms": 193000
+    },
+    {
+      "disc": 1,
+      "no": 7,
+      "title": "思い出は奇麗で",
+      "length": "3:29",
+      "length_ms": 209000
+    },
+    {
+      "disc": 1,
+      "no": 8,
+      "title": "Monochrome Syndrome",
+      "length": "4:52",
+      "length_ms": 292000
+    },
+    {
+      "disc": 1,
+      "no": 9,
+      "title": "SUN DANCE",
+      "length": "5:28",
+      "length_ms": 328000
+    },
+    {
+      "disc": 1,
+      "no": 10,
+      "title": "ONE -epilogue-",
+      "length": "4:03",
+      "length_ms": 243000
+    },
+    {
+      "disc": 2,
+      "no": 1,
+      "title": "pluie",
+      "length": "1:59",
+      "length_ms": 119000
+    },
+    {
+      "disc": 2,
+      "no": 2,
+      "title": "I beg you",
+      "length": "4:28",
+      "length_ms": 268000
+    },
+    {
+      "disc": 2,
+      "no": 3,
+      "title": "Black Bird",
+      "length": "3:47",
+      "length_ms": 227000
+    },
+    {
+      "disc": 2,
+      "no": 4,
+      "title": "Sailing",
+      "length": "5:35",
+      "length_ms": 335973
+    },
+    {
+      "disc": 2,
+      "no": 5,
+      "title": "眩いばかり",
+      "length": "4:11",
+      "length_ms": 251000
+    },
+    {
+      "disc": 2,
+      "no": 6,
+      "title": "Stand By You",
+      "length": "4:14",
+      "length_ms": 254000
+    },
+    {
+      "disc": 2,
+      "no": 7,
+      "title": "Ref:rain",
+      "length": "4:49",
+      "length_ms": 289000
+    },
+    {
+      "disc": 2,
+      "no": 8,
+      "title": "i‐mage <in/AR>",
+      "length": "5:49",
+      "length_ms": 349000
+    },
+    {
+      "disc": 2,
+      "no": 9,
+      "title": "花の唄",
+      "length": "6:11",
+      "length_ms": 371426
+    },
+    {
+      "disc": 2,
+      "no": 10,
+      "title": "April Showers",
+      "length": "5:43",
+      "length_ms": 343000
+    },
+    {
+      "disc": 3,
+      "no": 1,
+      "title": "I beg you",
+      "length": "4:51",
+      "length_ms": 291000
+    },
+    {
+      "disc": 3,
+      "no": 2,
+      "title": "Black Bird (Movie ver.)",
+      "length": "3:37",
+      "length_ms": 217000
+    },
+    {
+      "disc": 3,
+      "no": 3,
+      "title": "zero",
+      "length": "3:13",
+      "length_ms": 193000
+    },
+    {
+      "disc": 3,
+      "no": 4,
+      "title": "ONE",
+      "length": "5:38",
+      "length_ms": 338000
+    },
+    {
+      "disc": 3,
+      "no": 5,
+      "title": "眩いばかり",
+      "length": "4:18",
+      "length_ms": 258000
+    },
+    {
+      "disc": 3,
+      "no": 6,
+      "title": "思い出は奇麗で (Father’s day edit)",
+      "length": "2:51",
+      "length_ms": 171000
+    },
+    {
+      "disc": 3,
+      "no": 7,
+      "title": "Ref:rain",
+      "length": "4:51",
+      "length_ms": 291000
+    },
+    {
+      "disc": 3,
+      "no": 8,
+      "title": "花びらたちのマーチ",
+      "length": "3:17",
+      "length_ms": 197000
+    },
+    {
+      "disc": 3,
+      "no": 9,
+      "title": "歌鳥風月",
+      "length": "5:49",
+      "length_ms": 349000
+    },
+    {
+      "disc": 3,
+      "no": 10,
+      "title": "花の唄",
+      "length": "6:32",
+      "length_ms": 392000
+    },
+    {
+      "disc": 4,
+      "no": 1,
+      "title": "soleil",
+      "length": "1:06",
+      "length_ms": 66000
+    },
+    {
+      "disc": 4,
+      "no": 2,
+      "title": "ONE",
+      "length": "5:43",
+      "length_ms": 343000
+    },
+    {
+      "disc": 4,
+      "no": 3,
+      "title": "Monochrome Syndrome",
+      "length": "5:12",
+      "length_ms": 312000
+    },
+    {
+      "disc": 4,
+      "no": 4,
+      "title": "Believe Be:leave",
+      "length": "5:16",
+      "length_ms": 316000
+    },
+    {
+      "disc": 4,
+      "no": 5,
+      "title": "3min",
+      "length": "3:19",
+      "length_ms": 199000
+    },
+    {
+      "disc": 4,
+      "no": 6,
+      "title": "あなたに出会わなければ 〜夏雪冬花〜",
+      "length": "6:18",
+      "length_ms": 378000
+    },
+    {
+      "disc": 4,
+      "no": 7,
+      "title": "今日から思い出 Evergreen ver.",
+      "length": "5:17",
+      "length_ms": 317000
+    },
+    {
+      "disc": 4,
+      "no": 8,
+      "title": "カタオモイ",
+      "length": "3:53",
+      "length_ms": 233000
+    },
+    {
+      "disc": 4,
+      "no": 9,
+      "title": "思い出は奇麗で",
+      "length": "4:00",
+      "length_ms": 240000
+    },
+    {
+      "disc": 4,
+      "no": 10,
+      "title": "Ref:rain",
+      "length": "5:31",
+      "length_ms": 331000
+    },
+    {
+      "disc": 4,
+      "no": 11,
+      "title": "眩いばかり",
+      "length": "4:25",
+      "length_ms": 265000
+    },
+    {
+      "disc": 4,
+      "no": 12,
+      "title": "花の唄",
+      "length": "6:21",
+      "length_ms": 381000
+    },
+    {
+      "disc": 4,
+      "no": 13,
+      "title": "Black Bird",
+      "length": "3:50",
+      "length_ms": 230000
+    },
+    {
+      "disc": 4,
+      "no": 14,
+      "title": "After Rain -Scarlet ver.-",
+      "length": "5:04",
+      "length_ms": 304000
+    },
+    {
+      "disc": 4,
+      "no": 15,
+      "title": "Hz",
+      "length": "7:02",
+      "length_ms": 422000
+    },
+    {
+      "disc": 4,
+      "no": 16,
+      "title": "蝶々結び",
+      "length": "5:49",
+      "length_ms": 349000
+    }
+  ],
+  "images": {
+    "cover": {
+      "id": 23443573364,
+      "is_front": true,
+      "mime": "image/jpeg",
+      "bytes": null,
+      "urls": {
+        "full": "https://coverartarchive.org/release/fa4355aa-59bb-4a01-a788-d96e2e4c29e7/23443573364.jpg",
+        "thumb_250": "https://coverartarchive.org/release/fa4355aa-59bb-4a01-a788-d96e2e4c29e7/23443573364-250.jpg",
+        "thumb_500": "https://coverartarchive.org/release/fa4355aa-59bb-4a01-a788-d96e2e4c29e7/23443573364-500.jpg",
+        "thumb_1200": "https://coverartarchive.org/release/fa4355aa-59bb-4a01-a788-d96e2e4c29e7/23443573364-1200.jpg"
+      }
+    }
+  }
+}

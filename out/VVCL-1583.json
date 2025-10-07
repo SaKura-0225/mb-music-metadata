@@ -1,0 +1,84 @@
+{
+  "source": {
+    "site": "musicbrainz",
+    "collected_at": "2025-10-07T09:29:19Z"
+  },
+  "identifiers": {
+    "catalog_number": "VVCL-1583",
+    "catalog_numbers": [
+      "VVCL-1583",
+      "VVCL-1584"
+    ],
+    "catalog_number_compact": "VVCL-1583~4",
+    "barcode": "4547366427950",
+    "mbids": {
+      "release": "c6b6b1be-bd97-4d51-91a4-60faf1550ea4",
+      "release_group": "4fd20a1e-5728-480b-8c1b-95574a5f4773",
+      "label": "39997a96-794d-499a-a350-7db383a9dd74"
+    },
+    "catalog_number_compact_in": "VVCL-1583~4"
+  },
+  "title": {
+    "product_name": "unlasting",
+    "edition_name": "期間生産限定盤(アニメ盤)"
+  },
+  "artist_credit": [
+    "LiSA"
+  ],
+  "artist_display": "LiSA",
+  "label": "SACRA MUSIC",
+  "date": "2019-12-11",
+  "country": null,
+  "format": "CD+DVD",
+  "tracks": [
+    {
+      "disc": 1,
+      "no": 1,
+      "title": "unlasting",
+      "length": "4:56",
+      "length_ms": 296813
+    },
+    {
+      "disc": 1,
+      "no": 2,
+      "title": "ハウル",
+      "length": "4:53",
+      "length_ms": 293000
+    },
+    {
+      "disc": 1,
+      "no": 3,
+      "title": "Chill-Chill-Dal-Da",
+      "length": "4:09",
+      "length_ms": 249000
+    },
+    {
+      "disc": 1,
+      "no": 4,
+      "title": "unlasting -TV ver.-",
+      "length": "1:29",
+      "length_ms": 89000
+    },
+    {
+      "disc": 2,
+      "no": 1,
+      "title": "unlasting -“ソードアート・オンライン アリシゼーション War of Underworld” non-credit ending-",
+      "length": "1:40",
+      "length_ms": 100000
+    }
+  ],
+  "images": {
+    "cover": {
+      "id": 26202138846,
+      "is_front": true,
+      "mime": "image/jpeg",
+      "bytes": null,
+      "urls": {
+        "full": "https://coverartarchive.org/release/c6b6b1be-bd97-4d51-91a4-60faf1550ea4/26202138846.jpg",
+        "thumb_250": "https://coverartarchive.org/release/c6b6b1be-bd97-4d51-91a4-60faf1550ea4/26202138846-250.jpg",
+        "thumb_500": "https://coverartarchive.org/release/c6b6b1be-bd97-4d51-91a4-60faf1550ea4/26202138846-500.jpg",
+        "thumb_1200": "https://coverartarchive.org/release/c6b6b1be-bd97-4d51-91a4-60faf1550ea4/26202138846-1200.jpg"
+      }
+    }
+  }
+}

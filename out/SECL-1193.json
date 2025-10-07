@@ -1,0 +1,84 @@
+{
+  "source": {
+    "site": "musicbrainz",
+    "collected_at": "2025-10-07T09:29:13Z"
+  },
+  "identifiers": {
+    "catalog_number": "SECL-1193",
+    "catalog_numbers": [
+      "SECL-1193",
+      "SECL-1194"
+    ],
+    "catalog_number_compact": "SECL-1193~4",
+    "barcode": "4547557011197",
+    "mbids": {
+      "release": "b917299f-b5e5-4a4a-b63e-b97bfe5bb231",
+      "release_group": "3308c55f-9dfc-4699-aaaf-41e233c0b1ef",
+      "label": "7c614735-33ba-4bed-bbb7-89b7e72ce9bb"
+    },
+    "catalog_number_compact_in": "SECL-1193~4"
+  },
+  "title": {
+    "product_name": "ルミナス",
+    "edition_name": "初回生産限定盤"
+  },
+  "artist_credit": [
+    "ClariS"
+  ],
+  "artist_display": "ClariS",
+  "label": "SME Records",
+  "date": "2012-10-10",
+  "country": null,
+  "format": "CD+DVD",
+  "tracks": [
+    {
+      "disc": 1,
+      "no": 1,
+      "title": "ルミナス",
+      "length": "4:10",
+      "length_ms": 250386
+    },
+    {
+      "disc": 1,
+      "no": 2,
+      "title": "Friends",
+      "length": "3:51",
+      "length_ms": 231800
+    },
+    {
+      "disc": 1,
+      "no": 3,
+      "title": "blossom",
+      "length": "4:08",
+      "length_ms": 248106
+    },
+    {
+      "disc": 1,
+      "no": 4,
+      "title": "ルミナス -instrumental-",
+      "length": "4:12",
+      "length_ms": 252000
+    },
+    {
+      "disc": 2,
+      "no": 1,
+      "title": "ルミナス Music Video",
+      "length": "4:26",
+      "length_ms": 266000
+    }
+  ],
+  "images": {
+    "cover": {
+      "id": 6309128550,
+      "is_front": true,
+      "mime": "image/jpeg",
+      "bytes": null,
+      "urls": {
+        "full": "https://coverartarchive.org/release/b917299f-b5e5-4a4a-b63e-b97bfe5bb231/6309128550.jpg",
+        "thumb_250": "https://coverartarchive.org/release/b917299f-b5e5-4a4a-b63e-b97bfe5bb231/6309128550-250.jpg",
+        "thumb_500": "https://coverartarchive.org/release/b917299f-b5e5-4a4a-b63e-b97bfe5bb231/6309128550-500.jpg",
+        "thumb_1200": "https://coverartarchive.org/release/b917299f-b5e5-4a4a-b63e-b97bfe5bb231/6309128550-1200.jpg"
+      }
+    }
+  }
+}

@@ -23,6 +23,7 @@
 		  "type": ["string", "null"],
 		  "pattern": "^[A-Za-z0-9-]+\\d+(?:~\\d+)?(?:,\\s*[A-Za-z0-9-]+\\d+(?:~\\d+)?)*$"
 		},
+		"catalog_number_compact_in": { "type": ["string", "null"] },
         "barcode": { "type": ["string", "null"] },
         "mbids": {
           "type": "object",

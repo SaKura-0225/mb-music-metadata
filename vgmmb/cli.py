@@ -6,7 +6,10 @@ from .log import setup_logging
 from .queries import query_by_catalog
 from .normalizer import normalize_record, load_label_alias
 from .schema import load_schema, validate
-from .io import write_json, read_lines
+from .io import write_json, read_lines, first_from_catalog_range, is_catalog_range
+
+
+
 
 def _resolve_pkg_file(relpath: str) -> str:
     # relpath 例如 "data/schemas/mb-album-v1.json"
@@ -19,13 +22,14 @@ def _one(catalog: str, args, schema, label_alias_map):
         raise SystemExit(f"[NOT FOUND] {catalog}")
 
     out = normalize_record(best, artists, tracks, label_alias_map, cover=cover)
+    # --- 新增：记录用户输入的原始品番 ---
+    if is_catalog_range(args.catalog):
+        out.setdefault("identifiers", {})["catalog_number_compact_in"] = args.catalog
     if args.validate:
         errors = validate(out, schema)
         if errors:
             for e in errors:
                 print(f"[SCHEMA ERROR] {catalog} -> {e.message} at {list(e.path)}")
-            raise SystemExit(2)
-
     write_json(out, Path(args.out) if args.out and not args.batch else None)
 
 def main():
@@ -56,7 +60,8 @@ def main():
 
     # —— 最后再分支到单条或批量 —— 
     if args.catalog and not args.batch:
-        _one(args.catalog, args, schema, label_alias_map)
+        norm_cat = first_from_catalog_range(args.catalog)
+        _one(norm_cat, args, schema, label_alias_map)
         return
 
     if args.batch:
@@ -70,13 +75,16 @@ def main():
         out_dir.mkdir(parents=True, exist_ok=True)
 
         if mode == "file":
-            for cat in read_lines(path):
+            for raw in read_lines(path):
+                cat = first_from_catalog_range(raw)
                 try:
                     best, artists, tracks, cover = query_by_catalog(cat, with_cover=args.with_cover)
                     if not best:
                         print(f"[NOT FOUND] {cat}")
                         continue
                     out = normalize_record(best, artists, tracks, label_alias_map, cover=cover)
+                    if is_catalog_range(raw):
+                        out.setdefault("identifiers", {})["catalog_number_compact_in"] = raw
                     if args.validate:
                         errors = validate(out, schema)
                         if errors:
@@ -89,13 +97,16 @@ def main():
             return
         else:  # dir
             for fp in path.glob("*.txt"):
-                for cat in read_lines(fp):
+                for raw in read_lines(fp):
+                    cat = first_from_catalog_range(raw)
                     try:
                         best, artists, tracks, cover = query_by_catalog(cat, with_cover=args.with_cover)
                         if not best:
                             print(f"[NOT FOUND] {cat}")
                             continue
                         out = normalize_record(best, artists, tracks, label_alias_map, cover=cover)
+                        if is_catalog_range(raw):
+                            out.setdefault("identifiers", {})["catalog_number_compact_in"] = raw
                         if args.validate:
                             errors = validate(out, schema)
                             if errors:
