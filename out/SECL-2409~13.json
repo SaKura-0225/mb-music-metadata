@@ -1,7 +1,7 @@
 {
   "source": {
     "site": "musicbrainz",
-    "collected_at": "2025-10-07T09:29:21Z"
+    "collected_at": "2025-10-07T12:55:08Z"
   },
   "identifiers": {
     "catalog_number": "SECL-2409",
@@ -12,14 +12,14 @@
       "SECL-2412",
       "SECL-2413"
     ],
-    "catalog_number_compact": "SECL-2409~13",
+    "catalog_number_compact_db": "SECL-2409~13",
     "barcode": "4547366396249",
     "mbids": {
       "release": "fa4355aa-59bb-4a01-a788-d96e2e4c29e7",
       "release_group": "afc8948e-15a1-448a-8bbd-a9ea3b3144d5",
       "label": "7c614735-33ba-4bed-bbb7-89b7e72ce9bb"
     },
-    "catalog_number_compact_in": "SECL-2409~13"
+    "catalog_number_compact": "SECL-2409~13"
   },
   "title": {
     "product_name": "Sun Dance & Penny Rain",

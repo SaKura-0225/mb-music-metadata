@@ -194,7 +194,7 @@ def normalize_record(best, artists, tracks, label_alias_map=None, cover=None):
         "identifiers": {
             "catalog_number": best["catalog_number"],
             "catalog_numbers": best.get("catalog_numbers") or [],
-            "catalog_number_compact": compact_catalog_numbers(best.get("catalog_numbers") or []),
+            "catalog_number_compact_db": compact_catalog_numbers(best.get("catalog_numbers") or []),
             "barcode": best["barcode"],
             "mbids": {
                 "release": str(best["release_gid"]) if best["release_gid"] else None,

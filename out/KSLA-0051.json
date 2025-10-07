@@ -1,20 +1,21 @@
 {
   "source": {
     "site": "musicbrainz",
-    "collected_at": "2025-10-07T09:29:16Z"
+    "collected_at": "2025-10-07T12:55:03Z"
   },
   "identifiers": {
     "catalog_number": "KSLA-0051",
     "catalog_numbers": [
       "KSLA-0051"
     ],
-    "catalog_number_compact": "KSLA-0051",
+    "catalog_number_compact_db": "KSLA-0051",
     "barcode": "4933032006008",
     "mbids": {
       "release": "6113c39d-5d27-4749-b9da-3db89b1ade7a",
       "release_group": "8682d1a8-101d-45f6-97c1-b4b9cc858483",
       "label": "4356d860-9545-4e3f-b84e-71c496ea7ea3"
-    }
+    },
+    "catalog_number_compact": "KSLA-0051"
   },
   "title": {
     "product_name": "Crow Song",

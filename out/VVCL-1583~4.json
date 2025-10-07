@@ -1,7 +1,7 @@
 {
   "source": {
     "site": "musicbrainz",
-    "collected_at": "2025-10-07T09:29:19Z"
+    "collected_at": "2025-10-07T12:55:06Z"
   },
   "identifiers": {
     "catalog_number": "VVCL-1583",
@@ -9,14 +9,14 @@
       "VVCL-1583",
       "VVCL-1584"
     ],
-    "catalog_number_compact": "VVCL-1583~4",
+    "catalog_number_compact_db": "VVCL-1583~4",
     "barcode": "4547366427950",
     "mbids": {
       "release": "c6b6b1be-bd97-4d51-91a4-60faf1550ea4",
       "release_group": "4fd20a1e-5728-480b-8c1b-95574a5f4773",
       "label": "39997a96-794d-499a-a350-7db383a9dd74"
     },
-    "catalog_number_compact_in": "VVCL-1583~4"
+    "catalog_number_compact": "VVCL-1583~4"
   },
   "title": {
     "product_name": "unlasting",

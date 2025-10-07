@@ -7,9 +7,13 @@ from .queries import query_by_catalog
 from .normalizer import normalize_record, load_label_alias
 from .schema import load_schema, validate
 from .io import write_json, read_lines, first_from_catalog_range, is_catalog_range
+import re
 
-
-
+def _safe_basename(name: str) -> str:
+    n = (name or "").strip()
+    # 过滤 Windows 非法字符 \/:*?"<>|，以及尾部空格/点
+    n = re.sub(r'[\\/:*?"<>|]+', "_", n)
+    return n.rstrip(" .")
 
 def _resolve_pkg_file(relpath: str) -> str:
     # relpath 例如 "data/schemas/mb-album-v1.json"
@@ -22,15 +26,30 @@ def _one(catalog: str, args, schema, label_alias_map):
         raise SystemExit(f"[NOT FOUND] {catalog}")
 
     out = normalize_record(best, artists, tracks, label_alias_map, cover=cover)
-    # --- 新增：记录用户输入的原始品番 ---
-    if is_catalog_range(args.catalog):
-        out.setdefault("identifiers", {})["catalog_number_compact_in"] = args.catalog
+
+    # ✅ 无论是否区间，记录“用户输入的 catalog”到 JSON
+    input_cat = (args.catalog or catalog).strip()
+    out.setdefault("identifiers", {})["catalog_number_compact"] = input_cat
+
     if args.validate:
         errors = validate(out, schema)
         if errors:
             for e in errors:
                 print(f"[SCHEMA ERROR] {catalog} -> {e.message} at {list(e.path)}")
-    write_json(out, Path(args.out) if args.out and not args.batch else None)
+            raise SystemExit(2)
+
+    # ✅ 单条模式用“输入 catalog”命名输出文件（目录/文件/省略 三种情况都兼容）
+    if args.out:
+        pout = Path(args.out)
+        if pout.exists() and pout.is_dir():
+            outfile = pout / f"{_safe_basename(input_cat)}.json"
+        else:
+            outfile = pout  # 用户明确给了文件名，尊重
+    else:
+        outfile = Path(f"{_safe_basename(input_cat)}.json")
+
+    write_json(out, outfile)
+
 
 def main():
     setup_logging()
@@ -83,15 +102,21 @@ def main():
                         print(f"[NOT FOUND] {cat}")
                         continue
                     out = normalize_record(best, artists, tracks, label_alias_map, cover=cover)
-                    if is_catalog_range(raw):
-                        out.setdefault("identifiers", {})["catalog_number_compact_in"] = raw
+                    # ✅ 无论单/区间，都记录“原始输入”到 JSON
+                    input_cat = raw.strip()
+                    out.setdefault("identifiers", {})["catalog_number_compact"] = input_cat
+
                     if args.validate:
                         errors = validate(out, schema)
                         if errors:
                             for e in errors:
-                                print(f"[SCHEMA ERROR] {cat} -> {e.message} at {list(e.path)}")
+                                print(f"[SCHEMA ERROR] {raw} -> {e.message} at {list(e.path)}")
                             continue
-                    write_json(out, out_dir / f"{cat}.json")
+
+                    # ✅ 用“原始输入”命名文件（而不是 cat 首号）
+                    outfile = out_dir / f"{_safe_basename(input_cat)}.json"
+                    write_json(out, outfile)
+
                 except Exception as ex:
                     print(f"[ERROR] {cat}: {ex}")
             return
@@ -105,15 +130,20 @@ def main():
                             print(f"[NOT FOUND] {cat}")
                             continue
                         out = normalize_record(best, artists, tracks, label_alias_map, cover=cover)
-                        if is_catalog_range(raw):
-                            out.setdefault("identifiers", {})["catalog_number_compact_in"] = raw
+                        # ✅ 无论单/区间，都记录“原始输入”到 JSON
+                        input_cat = raw.strip()
+                        out.setdefault("identifiers", {})["catalog_number_compact"] = input_cat
+
                         if args.validate:
                             errors = validate(out, schema)
                             if errors:
                                 for e in errors:
-                                    print(f"[SCHEMA ERROR] {cat} -> {e.message} at {list(e.path)}")
+                                    print(f"[SCHEMA ERROR] {raw} -> {e.message} at {list(e.path)}")
                                 continue
-                        write_json(out, out_dir / f"{cat}.json")
+
+                        # ✅ 用“原始输入”命名文件（而不是 cat 首号）
+                        outfile = out_dir / f"{_safe_basename(input_cat)}.json"
+                        write_json(out, outfile)
                     except Exception as ex:
                         print(f"[ERROR] {cat}: {ex}")
             return

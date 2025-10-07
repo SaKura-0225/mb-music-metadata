@@ -1,7 +1,7 @@
 {
   "source": {
     "site": "musicbrainz",
-    "collected_at": "2025-10-07T09:29:13Z"
+    "collected_at": "2025-10-07T12:55:01Z"
   },
   "identifiers": {
     "catalog_number": "SECL-1193",
@@ -9,14 +9,14 @@
       "SECL-1193",
       "SECL-1194"
     ],
-    "catalog_number_compact": "SECL-1193~4",
+    "catalog_number_compact_db": "SECL-1193~4",
     "barcode": "4547557011197",
     "mbids": {
       "release": "b917299f-b5e5-4a4a-b63e-b97bfe5bb231",
       "release_group": "3308c55f-9dfc-4699-aaaf-41e233c0b1ef",
       "label": "7c614735-33ba-4bed-bbb7-89b7e72ce9bb"
     },
-    "catalog_number_compact_in": "SECL-1193~4"
+    "catalog_number_compact": "SECL-1193~4"
   },
   "title": {
     "product_name": "ルミナス",

@@ -19,11 +19,11 @@
       "properties": {
         "catalog_number": { "type": "string" },
 		"catalog_numbers": { "type": "array", "items": { "type": "string" } },
-		"catalog_number_compact": {
+		"catalog_number_compact": { "type": ["string", "null"] },
+		"catalog_number_compact_db": {
 		  "type": ["string", "null"],
 		  "pattern": "^[A-Za-z0-9-]+\\d+(?:~\\d+)?(?:,\\s*[A-Za-z0-9-]+\\d+(?:~\\d+)?)*$"
 		},
-		"catalog_number_compact_in": { "type": ["string", "null"] },
         "barcode": { "type": ["string", "null"] },
         "mbids": {
           "type": "object",

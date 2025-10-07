@@ -1,20 +1,21 @@
 {
   "source": {
     "site": "musicbrainz",
-    "collected_at": "2025-10-07T09:29:10Z"
+    "collected_at": "2025-10-07T12:54:59Z"
   },
   "identifiers": {
     "catalog_number": "KSLA-0052",
     "catalog_numbers": [
       "KSLA-0052"
     ],
-    "catalog_number_compact": "KSLA-0052",
+    "catalog_number_compact_db": "KSLA-0052",
     "barcode": "4933032006015",
     "mbids": {
       "release": "a8ec9ad7-e573-4a05-9a84-c178c2abb3c5",
       "release_group": "753e1d6f-7e65-430d-996a-6371cc34b086",
       "label": "4356d860-9545-4e3f-b84e-71c496ea7ea3"
-    }
+    },
+    "catalog_number_compact": "KSLA-0052"
   },
   "title": {
     "product_name": "Thousand Enemies",
