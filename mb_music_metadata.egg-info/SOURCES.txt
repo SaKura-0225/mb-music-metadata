@@ -10,6 +10,7 @@ mb_music_metadata.egg-info/top_level.txt
 vgmmb/__init__.py
 vgmmb/cli.py
 vgmmb/db.py
+vgmmb/excel_sync.py
 vgmmb/io.py
 vgmmb/log.py
 vgmmb/normalizer.py

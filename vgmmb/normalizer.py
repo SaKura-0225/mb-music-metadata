@@ -152,6 +152,8 @@ def build_caa_urls(release_gid: str, img_id: int, ext: str):
 def normalize_record(best, artists, tracks, label_alias_map=None, cover=None):
     product_name = best["release_title"]
     edition_name = (best.get("edition_note") or "").strip() or None
+    if edition_name is None:
+        edition_name = "通常盤"
     label_name = best["label_name"] or ""
     if label_alias_map:
         for canonical, aliases in label_alias_map.items():

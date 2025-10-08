@@ -1,0 +1,76 @@
+{
+  "source": {
+    "site": "musicbrainz",
+    "collected_at": "2025-10-08T06:41:15Z"
+  },
+  "identifiers": {
+    "catalog_number": "FCCM-0193",
+    "catalog_numbers": [
+      "FCCM-0193"
+    ],
+    "catalog_number_compact_db": "FCCM-0193",
+    "barcode": "4580143033425",
+    "mbids": {
+      "release": "f09b7d36-a0eb-4b6f-b18a-04e0198be860",
+      "release_group": "794d2667-c9ac-3ed3-bb60-90e0f9d15a5c",
+      "label": "2b388e5e-67a1-450e-b7a2-91d43c1220a6"
+    },
+    "catalog_number_compact": "FCCM-0193"
+  },
+  "title": {
+    "product_name": "奈落の花",
+    "edition_name": "通常盤"
+  },
+  "artist_credit": [
+    "島みやえい子"
+  ],
+  "artist_display": "島みやえい子",
+  "label": "IVE",
+  "date": "2007-08-22",
+  "country": null,
+  "format": "CD",
+  "tracks": [
+    {
+      "disc": 1,
+      "no": 1,
+      "title": "奈落の花",
+      "length": "5:00",
+      "length_ms": 300293
+    },
+    {
+      "disc": 1,
+      "no": 2,
+      "title": "FLOW",
+      "length": "4:39",
+      "length_ms": 279120
+    },
+    {
+      "disc": 1,
+      "no": 3,
+      "title": "奈落の花 Instrumental",
+      "length": "5:01",
+      "length_ms": 301000
+    },
+    {
+      "disc": 1,
+      "no": 4,
+      "title": "FLOW Instrumental",
+      "length": "4:37",
+      "length_ms": 277506
+    }
+  ],
+  "images": {
+    "cover": {
+      "id": 4905692219,
+      "is_front": true,
+      "mime": "image/jpeg",
+      "bytes": null,
+      "urls": {
+        "full": "https://coverartarchive.org/release/f09b7d36-a0eb-4b6f-b18a-04e0198be860/4905692219.jpg",
+        "thumb_250": "https://coverartarchive.org/release/f09b7d36-a0eb-4b6f-b18a-04e0198be860/4905692219-250.jpg",
+        "thumb_500": "https://coverartarchive.org/release/f09b7d36-a0eb-4b6f-b18a-04e0198be860/4905692219-500.jpg",
+        "thumb_1200": "https://coverartarchive.org/release/f09b7d36-a0eb-4b6f-b18a-04e0198be860/4905692219-1200.jpg"
+      }
+    }
+  }
+}

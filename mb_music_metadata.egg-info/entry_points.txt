@@ -1,2 +1,3 @@
 [console_scripts]
 mb-lookup = vgmmb.cli:main
+mb-sync-excel = vgmmb.excel_sync:main

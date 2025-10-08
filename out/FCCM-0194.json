@@ -1,0 +1,76 @@
+{
+  "source": {
+    "site": "musicbrainz",
+    "collected_at": "2025-10-08T06:41:17Z"
+  },
+  "identifiers": {
+    "catalog_number": "FCCM-0194",
+    "catalog_numbers": [
+      "FCCM-0194"
+    ],
+    "catalog_number_compact_db": "FCCM-0194",
+    "barcode": "4580143033432",
+    "mbids": {
+      "release": "dc39121a-5cb4-4cfd-9b70-6fc04e068c44",
+      "release_group": "f8b8c749-db21-38e4-972f-6cbdf26095c6",
+      "label": "3c7f1fea-8ea8-479e-b51f-3b790a32e83c"
+    },
+    "catalog_number_compact": "FCCM-0194"
+  },
+  "title": {
+    "product_name": "対象a",
+    "edition_name": "通常盤"
+  },
+  "artist_credit": [
+    "anNina"
+  ],
+  "artist_display": "anNina",
+  "label": "Frontier Works",
+  "date": "2007-08-22",
+  "country": null,
+  "format": "CD",
+  "tracks": [
+    {
+      "disc": 1,
+      "no": 1,
+      "title": "対象a",
+      "length": "4:15",
+      "length_ms": 255533
+    },
+    {
+      "disc": 1,
+      "no": 2,
+      "title": "ロートシルトRh-",
+      "length": "5:22",
+      "length_ms": 322293
+    },
+    {
+      "disc": 1,
+      "no": 3,
+      "title": "対象a Instrumental",
+      "length": "4:15",
+      "length_ms": 255533
+    },
+    {
+      "disc": 1,
+      "no": 4,
+      "title": "ロートシルトRh- Instrumental",
+      "length": "5:21",
+      "length_ms": 321986
+    }
+  ],
+  "images": {
+    "cover": {
+      "id": 22825855230,
+      "is_front": true,
+      "mime": "image/jpeg",
+      "bytes": null,
+      "urls": {
+        "full": "https://coverartarchive.org/release/dc39121a-5cb4-4cfd-9b70-6fc04e068c44/22825855230.jpg",
+        "thumb_250": "https://coverartarchive.org/release/dc39121a-5cb4-4cfd-9b70-6fc04e068c44/22825855230-250.jpg",
+        "thumb_500": "https://coverartarchive.org/release/dc39121a-5cb4-4cfd-9b70-6fc04e068c44/22825855230-500.jpg",
+        "thumb_1200": "https://coverartarchive.org/release/dc39121a-5cb4-4cfd-9b70-6fc04e068c44/22825855230-1200.jpg"
+      }
+    }
+  }
+}

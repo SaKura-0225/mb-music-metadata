@@ -1,0 +1,76 @@
+{
+  "source": {
+    "site": "musicbrainz",
+    "collected_at": "2025-10-08T06:41:12Z"
+  },
+  "identifiers": {
+    "catalog_number": "FCCM-0135",
+    "catalog_numbers": [
+      "FCCM-0135"
+    ],
+    "catalog_number_compact_db": "FCCM-0135",
+    "barcode": "4562141568260",
+    "mbids": {
+      "release": "4502a8fd-3b23-4cf7-9510-841fbc43c2f8",
+      "release_group": "6ffc6c29-7916-3863-bb43-e1c51dd2ed9d",
+      "label": "2b388e5e-67a1-450e-b7a2-91d43c1220a6"
+    },
+    "catalog_number_compact": "FCCM-0135"
+  },
+  "title": {
+    "product_name": "ひぐらしのなく頃に",
+    "edition_name": "通常盤"
+  },
+  "artist_credit": [
+    "島みやえい子"
+  ],
+  "artist_display": "島みやえい子",
+  "label": "IVE",
+  "date": "2006-05-24",
+  "country": null,
+  "format": "CD",
+  "tracks": [
+    {
+      "disc": 1,
+      "no": 1,
+      "title": "ひぐらしのなく頃に",
+      "length": "4:25",
+      "length_ms": 265866
+    },
+    {
+      "disc": 1,
+      "no": 2,
+      "title": "all alone",
+      "length": "6:02",
+      "length_ms": 362426
+    },
+    {
+      "disc": 1,
+      "no": 3,
+      "title": "ひぐらしのなく頃に　Instrumental",
+      "length": "4:23",
+      "length_ms": 263613
+    },
+    {
+      "disc": 1,
+      "no": 4,
+      "title": "all alone　Instrumental",
+      "length": "6:02",
+      "length_ms": 362493
+    }
+  ],
+  "images": {
+    "cover": {
+      "id": 17814808544,
+      "is_front": true,
+      "mime": "image/jpeg",
+      "bytes": null,
+      "urls": {
+        "full": "https://coverartarchive.org/release/4502a8fd-3b23-4cf7-9510-841fbc43c2f8/17814808544.jpg",
+        "thumb_250": "https://coverartarchive.org/release/4502a8fd-3b23-4cf7-9510-841fbc43c2f8/17814808544-250.jpg",
+        "thumb_500": "https://coverartarchive.org/release/4502a8fd-3b23-4cf7-9510-841fbc43c2f8/17814808544-500.jpg",
+        "thumb_1200": "https://coverartarchive.org/release/4502a8fd-3b23-4cf7-9510-841fbc43c2f8/17814808544-1200.jpg"
+      }
+    }
+  }
+}

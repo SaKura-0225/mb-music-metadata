@@ -1,9 +1,11 @@
 Metadata-Version: 2.4
 Name: mb-music-metadata
-Version: 0.1.0
-Summary: Minimal MB-only catalog pipeline: lookup by catalog number and emit normalized JSON
+Version: 0.1.1
+Summary: Minimal MB-only catalog pipeline: lookup by catalog number and emit normalized JSON, with Excel sync support
 Requires-Python: >=3.9
 License-File: LICENSE
 Requires-Dist: psycopg2-binary>=2.9.9
 Requires-Dist: jsonschema>=4.22.0
+Requires-Dist: pandas>=2.0.0
+Requires-Dist: openpyxl>=3.1.0
 Dynamic: license-file

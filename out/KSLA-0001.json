@@ -1,0 +1,118 @@
+{
+  "source": {
+    "site": "musicbrainz",
+    "collected_at": "2025-10-07T16:10:49Z"
+  },
+  "identifiers": {
+    "catalog_number": "KSLA-0001",
+    "catalog_numbers": [
+      "KSLA-0001"
+    ],
+    "catalog_number_compact_db": "KSLA-0001",
+    "barcode": "4933032002147",
+    "mbids": {
+      "release": "b60916b9-da48-4f05-8870-89991a6fd4aa",
+      "release_group": "9fb1c956-90d7-3ed4-b018-ae8cdff30a89",
+      "label": "4356d860-9545-4e3f-b84e-71c496ea7ea3"
+    },
+    "catalog_number_compact": "KSLA-0001"
+  },
+  "title": {
+    "product_name": "Humanity...",
+    "edition_name": "通常盤"
+  },
+  "artist_credit": [
+    "WORK-S"
+  ],
+  "artist_display": "WORK-S",
+  "label": "Key Sounds Label",
+  "date": "2001-08-10",
+  "country": null,
+  "format": "CD",
+  "tracks": [
+    {
+      "disc": 1,
+      "no": 1,
+      "title": "AGAIN",
+      "length": "5:15",
+      "length_ms": 315760
+    },
+    {
+      "disc": 1,
+      "no": 2,
+      "title": "Summer Wind",
+      "length": "4:14",
+      "length_ms": 254413
+    },
+    {
+      "disc": 1,
+      "no": 3,
+      "title": "夏へ続く小径",
+      "length": "4:58",
+      "length_ms": 298640
+    },
+    {
+      "disc": 1,
+      "no": 4,
+      "title": "春の午後、僕は長い旅をした",
+      "length": "5:45",
+      "length_ms": 345000
+    },
+    {
+      "disc": 1,
+      "no": 5,
+      "title": "Shadow of Silence",
+      "length": "5:16",
+      "length_ms": 316373
+    },
+    {
+      "disc": 1,
+      "no": 6,
+      "title": "Wrist",
+      "length": "4:39",
+      "length_ms": 279800
+    },
+    {
+      "disc": 1,
+      "no": 7,
+      "title": "Run",
+      "length": "5:41",
+      "length_ms": 341000
+    },
+    {
+      "disc": 1,
+      "no": 8,
+      "title": "HIGHWAY PASSING",
+      "length": "4:01",
+      "length_ms": 241453
+    },
+    {
+      "disc": 1,
+      "no": 9,
+      "title": "LOVE IS ETERNAL",
+      "length": "5:46",
+      "length_ms": 346586
+    },
+    {
+      "disc": 1,
+      "no": 10,
+      "title": "鳥の詩 ～Bossanova Version～",
+      "length": "5:11",
+      "length_ms": 311493
+    }
+  ],
+  "images": {
+    "cover": {
+      "id": 31574073496,
+      "is_front": true,
+      "mime": "image/jpeg",
+      "bytes": null,
+      "urls": {
+        "full": "https://coverartarchive.org/release/b60916b9-da48-4f05-8870-89991a6fd4aa/31574073496.jpg",
+        "thumb_250": "https://coverartarchive.org/release/b60916b9-da48-4f05-8870-89991a6fd4aa/31574073496-250.jpg",
+        "thumb_500": "https://coverartarchive.org/release/b60916b9-da48-4f05-8870-89991a6fd4aa/31574073496-500.jpg",
+        "thumb_1200": "https://coverartarchive.org/release/b60916b9-da48-4f05-8870-89991a6fd4aa/31574073496-1200.jpg"
+      }
+    }
+  }
+}

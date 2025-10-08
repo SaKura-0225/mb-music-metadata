@@ -1,0 +1,76 @@
+{
+  "source": {
+    "site": "musicbrainz",
+    "collected_at": "2025-10-08T06:41:08Z"
+  },
+  "identifiers": {
+    "catalog_number": "FCCM-0136",
+    "catalog_numbers": [
+      "FCCM-0136"
+    ],
+    "catalog_number_compact_db": "FCCM-0136",
+    "barcode": "4562141568277",
+    "mbids": {
+      "release": "3853ad73-3dee-4fc7-9b0b-065fb000756d",
+      "release_group": "38da493e-fd69-3c39-8705-1a5e12f6ffd3",
+      "label": "89a4dd78-2aad-44b4-a2a7-bab3e1c61f4e"
+    },
+    "catalog_number_compact": "FCCM-0136"
+  },
+  "title": {
+    "product_name": "why, or why not",
+    "edition_name": "通常盤"
+  },
+  "artist_credit": [
+    "片霧烈火"
+  ],
+  "artist_display": "片霧烈火",
+  "label": "M:X",
+  "date": "2006-06-28",
+  "country": null,
+  "format": "CD",
+  "tracks": [
+    {
+      "disc": 1,
+      "no": 1,
+      "title": "why, or why not",
+      "length": "5:41",
+      "length_ms": 341000
+    },
+    {
+      "disc": 1,
+      "no": 2,
+      "title": "誰そ彼",
+      "length": "5:30",
+      "length_ms": 330533
+    },
+    {
+      "disc": 1,
+      "no": 3,
+      "title": "why, or why not <Instrumental>",
+      "length": "5:41",
+      "length_ms": 341200
+    },
+    {
+      "disc": 1,
+      "no": 4,
+      "title": "誰そ彼 <Instrumental>",
+      "length": "5:26",
+      "length_ms": 326226
+    }
+  ],
+  "images": {
+    "cover": {
+      "id": 4910208370,
+      "is_front": true,
+      "mime": "image/jpeg",
+      "bytes": null,
+      "urls": {
+        "full": "https://coverartarchive.org/release/3853ad73-3dee-4fc7-9b0b-065fb000756d/4910208370.jpg",
+        "thumb_250": "https://coverartarchive.org/release/3853ad73-3dee-4fc7-9b0b-065fb000756d/4910208370-250.jpg",
+        "thumb_500": "https://coverartarchive.org/release/3853ad73-3dee-4fc7-9b0b-065fb000756d/4910208370-500.jpg",
+        "thumb_1200": "https://coverartarchive.org/release/3853ad73-3dee-4fc7-9b0b-065fb000756d/4910208370-1200.jpg"
+      }
+    }
+  }
+}
